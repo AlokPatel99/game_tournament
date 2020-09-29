@@ -59,7 +59,7 @@ def is_end():
 Here display function is used to display the current states, in the play function it is commented,
 but can be accessed (called) to check the current state of the game.
 '''
-
+'''
 def display():
   for i in range(7):
     for j in range(7):
@@ -68,7 +68,7 @@ def display():
       else:
         print(current_state[i][j]+',',end=" ")
     print()
-
+'''
 '''
 Here maxi is the function max in minimax, and as the O is playing first it is placed in Maxi function to change its state.
 
