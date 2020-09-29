@@ -23,8 +23,9 @@ m3=0
 m4=0
 
 human = sys.argv[1]
-c = socket.socket()
+c = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 c.connect(sys.argv[3],sys.argv[2])
+
 
 
 
