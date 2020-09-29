@@ -24,7 +24,7 @@ m4=0
 
 human = sys.argv[1]
 c = socket.socket()
-c.connect((sys.argv[3],sys.argv[2]))
+c.connect(sys.argv[3],sys.argv[2])
 
 
 
